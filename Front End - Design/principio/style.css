@@ -1,0 +1,14 @@
+section{
+    padding: 50px 30px 20px 60px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: rgb(113, 179, 255);
+}
+section article{
+    background-color: rgb(255, 161, 238);
+    width: 500px;
+    height: 400px;
+}
+section article p {
+    line-height: 4;
+}

@@ -1,0 +1,15 @@
+.desafio1{
+    color: orange;
+}
+#lista1 {
+    list-style-type: disc;
+    color: #00f;
+    background-color: rgba(100, 50, 10, 0.3);
+} 
+
+
+#lista2{
+    list-style-type: georgian;
+    color: #00f;
+    background-color: rgba(100, 50, 10, 0.3);
+}
