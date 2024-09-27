@@ -1,0 +1,51 @@
+@font-face {
+    font-family: "cabecalho";
+    src: url(fonts/DancingScript-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: "roboto";
+    src: url(fonts/RobotoSlab-VariableFont_wght.ttf);
+}
+
+*{padding: 0; margin: 0; box-sizing: border-box;}
+body{background-color: #596f62;}
+header {
+    background-color: #1c3144;
+	text-align: center;
+	width: 100%;
+	height: 320px;
+}
+header .overlay{
+	width: 100%;
+	height: 100%;
+	padding: 50px;
+	color: #FFF;
+	text-shadow: 1px 2px 2px #fff;	
+}
+.title1 {
+	font-family: 'roboto';
+	font-size: 25px;
+	margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.text1 {
+	font-family: 'roboto';
+    font-size: 15px;
+	margin-left: 30px;
+}
+
+.paginas {
+	border: none;
+	outline: none;
+	padding: 5px 20px;
+	border-radius: 40px;
+	color: #333;
+	background: #fff;
+	margin-bottom: 50px;
+	box-shadow: 0 3px 20px 0 #0000003b;
+    font-family: 'roboto';
+	font-size: 20px;
+    text-decoration: none;
+}

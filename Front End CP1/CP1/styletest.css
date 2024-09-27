@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "cabecalho";
+    src: url(fonts/DancingScript-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: "roboto";
+    src: url(fonts/RobotoSlab-VariableFont_wght.ttf);
+}
+
+*{padding: 0; margin: 0; box-sizing: border-box;}
+body{height: 900px;}
+header {
+    background-color: #1c3144;
+	text-align: center;
+	width: 100%;
+	height: 320px;
+}
+header .overlay{
+	width: 100%;
+	height: 100%;
+	padding: 50px;
+	color: #FFF;
+	text-shadow: 1px 2px 2px #fff;
+	
+}
+
+h1 {
+	font-family: 'roboto';
+	font-size: 120px;
+	margin-bottom: 20px;
+}
+
+h3, p {
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 30px;
+}
+
+.paginas {
+	border: none;
+	outline: none;
+	padding: 5px 20px;
+	border-radius: 40px;
+	color: #333;
+	background: #fff;
+	margin-bottom: 50px;
+	box-shadow: 0 3px 20px 0 #0000003b;
+    font-family: 'roboto';
+	font-size: 20px;
+    text-decoration: none;
+}
+button:hover{
+	cursor: pointer;
+}
+.titulo_apresentacao{
+    font-family: 'roboto';
+	font-size: 20px;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+.texto_apresentacao{
+    font-family: 'roboto';
+	font-size: 20px;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 30px;
+}
+.corpo{
+    background-color: #596f62;
+}
