@@ -1,0 +1,25 @@
+div{
+    border-top: dotted 5px red;
+    border-right: dotted 10px cyan;
+    border-bottom: dotted 7px green;
+    border-left: dotted 12px yellowgreen;
+    border-radius: 10px;
+    margin: 5px 8px;
+    padding: 6px 9px;
+    overflow: scroll;
+    font-size: 90px;
+    width: 150px;
+    height: 250px;
+}
+p{
+    display: inline;
+    background-color: blueviolet;
+}
+span{  
+    display: inline-block;
+    background-color: gray;
+}
+.submenu {
+    list-style:  none;
+    
+}
