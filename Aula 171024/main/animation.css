@@ -1,0 +1,30 @@
+h1{
+    animation-name: aparecer;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes aparecer {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+
+div.efeito {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    animation-name: um_efeito;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-delay: 1s;
+}
+
+@keyframes um_efeito {
+    0% { width: 100px; }
+    25% { width: 300px; }
+    50% { width: 200px; 
+        background-color: red}
+    75% {width: 300px;}
+    100% {width: 100px;
+        background-color: green;}
+}
